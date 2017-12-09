@@ -37,9 +37,11 @@
 
         <!-- Estadistica especifica -->
 
-        <h4 align="center"> Estadistica Especifica </h4>
-
         @isset($equipo)
+          @section('banner')
+            <img src="images/estadistica.png">
+          @stop
+          <h4 align="center"> Estadistica Especifica </h4>
           <table class="table table-hover">
             <thead class="thead-dark">
               <tr>

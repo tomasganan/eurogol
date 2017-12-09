@@ -249,7 +249,7 @@
           <!--contact form start-->
           <div class="col-md-6 conForm">
             <div id="message"></div>
-              <form method="post" action="php/contact.php" name="cform" id="cform">
+              <form method="post" action="" name="cform" id="cform">
                 <input name="name" id="name" type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Nombre" >
                 <input name="email" id="email" type="email" class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr" placeholder="Email" >
                 <textarea name="comments" id="comments" cols="" rows="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Mensaje"></textarea>

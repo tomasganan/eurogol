@@ -37,7 +37,7 @@
                   <td>{{ $jug -> position }}</td>
                   <td>{{ $jug ->  dateOfBirth }}</td>
                   <td>{{ $jug -> nationality }}</td>                 
-                  <td>{{ $jug -> contractUntil }}</td>
+                  <td>@if($jug->contractUntil =='null'){A definir}@else{{$jug->contractUntil}}@endif</td>
                 </tr>
               @endforeach
           </table>

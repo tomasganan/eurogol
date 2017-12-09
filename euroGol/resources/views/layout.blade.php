@@ -35,10 +35,10 @@
       <div class="header-content clearfix">
         <nav class="navigation" role="navigation">
           <ul>
-            <li><a data-scroll href="#sec1">Inicio</a></li>
-            <li><a data-scroll href="#sec2">UEFA</a></li>
-            <li><a data-scroll href="#sec4">Equipo</a></li>
-            <li><a data-scroll href="#sec3">Contacto</a></li>
+            <li><a data-scroll href="/">Inicio</a></li>
+            <li><a data-scroll href="/#sec2">UEFA</a></li>
+            <li><a data-scroll href="/#sec4">Equipo</a></li>
+            <li><a data-scroll href="/#sec3">Contacto</a></li>
           </ul>
         </nav>
           <a href="#" class="nav-toggle">Menu<span></span></a>
